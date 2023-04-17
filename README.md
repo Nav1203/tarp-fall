@@ -16,10 +16,9 @@ To run the model, you need to have the following software installed on your syst
 
 ## Installation
 
-1. Clone this repository using `git clone https://github.com/your-username/yolov5-fall-detection.git`
+1. Clone this repository using `git clone https://github.com/Nav1203/tarp-fall.git`
 2. Install the required packages by running `pip install -r requirements.txt`
-3. Download the YOLOv5 weights file from the official repository by running `python download_weights.py`. This will download the `yolov5s.pt` file to the `weights` directory.
-4. Create a Firebase project and substitute the credentials to the test1.py file.
+3. Create a Firebase project and substitute the credentials to the test1.py file.
 
 ## Usage
 
