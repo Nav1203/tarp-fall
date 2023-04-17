@@ -5,6 +5,12 @@ This repository contains a YOLOv5 based fall detection model that is capable of 
 ## About Us
 This project was built by our team (Aayush Krishna, Lakshmi Rajeev, Renil Augustine Baby and Navaneeth Amarnath) as part of our J component for the course Technical Answers to Real World Problems. We have built it to address the safety of the elderly in our homes especially at night time which when they are highly exposed to falling and hurting themselves. We intend to shorten the response time taken by people to get to the victim by alerting all nearby guardians as well as health authorities once a fall has been detected. This model can easily be integrated to existing surveilance systems or can work well with budget camera surveilance model built by us using an ESP32 CAM module.
 
+## About the Model
+The model was trained on the fall dataset from kaggle which includes about 500 different images and does a ternary classification, that is classifies into sitting, walking and fall detected with a confidence level also to ensure better results.
+
+Dataset Link
+`https://www.kaggle.com/datasets/uttejkumarkandagatla/fall-detection-dataset`
+
 ## Requirements
 
 To run the model, you need to have the following software installed on your system:
