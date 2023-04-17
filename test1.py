@@ -10,16 +10,12 @@ import sendnotification
 import pyrebase
 import datetime
 config={
-    "apiKey": "AIzaSyDJgcH85qBoOOwUxY-WsWtQFWiZwWWcaVs",
-  "authDomain": "fall-det.firebaseapp.com",
-  "projectId": "fall-det",
-  "databaseURL": "https://fall-det-default-rtdb.firebaseio.com",
-  "storageBucket": "fall-det.appspot.com",
-  "messagingSenderId": "508646580821",
-  "appId": "1:508646580821:web:1531df570385646532aadc"
+   '''
+   Your Credentials to firebase
+   '''
 }
 model=torch.hub.load('ultralytics/yolov5', 'custom', 'best.pt')
-cap = cv2.VideoCapture("http://192.168.240.76:81/stream")#"http://192.168.240.211:8080/video")#"http://192.168.240.76:81/stream")#"https://172.20.10.6:8080/video")
+cap = cv2.VideoCapture("<Your IP Address to Stream>")
 cnt=0
 fb=pyrebase.initialize_app(config)
 rl_db=fb.database()
