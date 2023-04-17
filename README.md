@@ -9,7 +9,8 @@ This project was built by our team (Aayush Krishna, Lakshmi Rajeev, Renil August
 The model was trained on the fall dataset from kaggle which includes about 500 different images and does a ternary classification, that is classifies into sitting, walking and fall detected with a confidence level also to ensure better results.
 
 Dataset Link
-`https://www.kaggle.com/datasets/uttejkumarkandagatla/fall-detection-dataset`
+
+https://www.kaggle.com/datasets/uttejkumarkandagatla/fall-detection-dataset
 
 ## Requirements
 
