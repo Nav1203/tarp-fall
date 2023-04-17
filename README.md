@@ -2,6 +2,9 @@
 
 This repository contains a YOLOv5 based fall detection model that is capable of sending a WhatsApp and Telegram message on detection of a fall event. The model is also integrated with a Firebase database to store the detection results.
 
+## About Us
+This project was built by our team (Aayush Krishna, Lakshmi Rajeev, Renil Augustine Baby and Navaneeth Amarnath) as part of our J component for the course Technical Answers to Real World Problems. We have built it to address the safety of the elderly in our homes especially at night time which when they are highly exposed to falling and hurting themselves. We intend to shorten the response time taken by people to get to the victim by alerting all nearby guardians as well as health authorities once a fall has been detected. This model can easily be integrated to existing surveilance systems or can work well with budget camera surveilance model built by us using an ESP32 CAM module.
+
 ## Requirements
 
 To run the model, you need to have the following software installed on your system:
