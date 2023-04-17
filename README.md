@@ -10,9 +10,9 @@ To run the model, you need to have the following software installed on your syst
 - PyTorch 1.8 or later
 - OpenCV 4.5 or later
 - TensorFlow 2.4 or later
-- Firebase Admin SDK
-- twilio module (for WhatsApp message)
-- telebot module (for Telegram message)
+- Pyrebase4
+- heyoo (Whatsapp API)
+- requesrs (to send requests to Telegram API)
 
 ## Installation
 
@@ -36,3 +36,6 @@ Run the test1.py, by adding your live footage IP address value to the following 
 cap = cv2.VideoCapture("<IP_Address>")
 ```
 
+## Credits
+
+The fall detection model is based on the YOLOv5 implementation by Ultralytics LLC.
